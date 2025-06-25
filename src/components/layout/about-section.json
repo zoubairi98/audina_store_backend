@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_layout_about_sections",
+  "info": {
+    "displayName": "About Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "About": {
+      "displayName": "About",
+      "type": "component",
+      "repeatable": false,
+      "component": "components.about"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.link"
+    }
+  }
+}

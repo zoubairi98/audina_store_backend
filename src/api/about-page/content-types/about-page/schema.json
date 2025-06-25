@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.about-hero-section",
+        "layout.about-story-section",
+        "layout.about-location-section",
+        "layout.shared-contact-banner"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "ourValues": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.about-values-section"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_cta_banners",
+  "info": {
+    "displayName": "cta-banner"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "buttonLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.link"
+    },
+    "backgroundColor": {
+      "type": "enumeration",
+      "enum": [
+        "Brown",
+        "Dark",
+        "Light"
+      ]
+    }
+  }
+}

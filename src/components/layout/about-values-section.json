@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_about_values_sections",
+  "info": {
+    "displayName": "about.values-section",
+    "description": "",
+    "icon": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

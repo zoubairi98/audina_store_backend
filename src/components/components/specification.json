@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_components_specifications",
+  "info": {
+    "displayName": "specification"
+  },
+  "options": {},
+  "attributes": {
+    "size": {
+      "type": "string"
+    },
+    "concentration": {
+      "type": "string"
+    },
+    "longevity": {
+      "type": "string"
+    },
+    "sillage": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Unisex",
+        "Male",
+        "Female"
+      ]
+    }
+  }
+}

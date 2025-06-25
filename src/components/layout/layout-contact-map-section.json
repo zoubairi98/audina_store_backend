@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_layout_contact_map_sections",
+  "info": {
+    "displayName": "contact-map-section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "mapEmbedHtml": {
+      "type": "text"
+    }
+  }
+}
